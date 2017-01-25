@@ -144,3 +144,7 @@ td {
 .footer {
 	
 }
+
+.img-bright:hover {
+	opacity: 0.8;
+}
