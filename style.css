@@ -52,9 +52,12 @@ td {
 	border: 2px solid #cccccc;
 }
 
-.container {
-	width: 700px;
+.wrapper {
+	width: 1000px;
 	margin: 0 auto;
+	background-color: rgba(175, 175, 175, 0.1);
+	padding: 20px;
+	border-radius: 2px;
 }
 
 .card {
@@ -95,9 +98,49 @@ td {
 }
 
 #movies img {
-	width: 200px;
+	width: 186px;
 }
 
 .text-center {
 	text-align: center;
+}
+
+#page-content {
+
+}
+
+#movies a {
+	color: #808080;
+}
+
+#movies a:hover {
+	color: #A1ABC7;
+}
+
+.icon-size i {
+	font-size: 30px;
+	margin-bottom: 40px;
+	margin-left: 45px;
+}
+
+.icon-size a:hover {
+	color: #FFFFFF;
+}
+
+#left {
+	width: 35%;
+	float: left;
+}
+
+#right {
+	width: 60%;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	
 }
